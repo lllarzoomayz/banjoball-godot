@@ -1,0 +1,22 @@
+* text=auto
+*.gd text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.cpp text eol=lf
+*.json text eol=lf
+*.png binary
+*.jpg binary
+*.blp binary
+*.mdx binary
+*.wav binary
+*.ogg binary
+*.ttf binary
+*.dll binary
+*.so binary
+*.ttc binary
+*.dylib binary
+*.mp3 binary
+*.rgba binary
+*.bin binary
+# Preserve the exact original extracted asset bytes, including unusual formats.
+assets/source/** binary

@@ -1,0 +1,268 @@
+[
+  {
+    "index": 0,
+    "name": "厨师帽",
+    "source_name": "Chef hat",
+    "source_member": "war3mapImported\\ChefsHat.mdx",
+    "model": "hat_00"
+  },
+  {
+    "index": 1,
+    "name": "软呢帽",
+    "source_name": "Fedora",
+    "source_member": "war3mapImported\\Mage Hat.mdx",
+    "model": "hat_01"
+  },
+  {
+    "index": 2,
+    "name": "军帽",
+    "source_name": "Military hat",
+    "source_member": "war3mapImported\\Hat_Military.mdx",
+    "model": "hat_02"
+  },
+  {
+    "index": 3,
+    "name": "海盗帽",
+    "source_name": "Pirate hat",
+    "source_member": "war3mapImported\\PirateHat.MDX",
+    "model": "hat_03"
+  },
+  {
+    "index": 4,
+    "name": "圣诞帽",
+    "source_name": "Santa hat",
+    "source_member": "war3mapImported\\SantaHat.mdx",
+    "model": "hat_04"
+  },
+  {
+    "index": 5,
+    "name": "猎巫帽",
+    "source_name": "Witch Hunter hat",
+    "source_member": "war3mapImported\\WitchHunterHat.MDX",
+    "model": "hat_05"
+  },
+  {
+    "index": 6,
+    "name": "十字军头盔",
+    "source_name": "Crusader helm",
+    "source_member": "war3mapImported\\CrusaderHelm.mdx",
+    "model": "hat_06"
+  },
+  {
+    "index": 7,
+    "name": "南瓜头",
+    "source_name": "Pumpkin hat",
+    "source_member": "war3mapImported\\PumpkinHeadFinish.mdx",
+    "model": "hat_07"
+  },
+  {
+    "index": 8,
+    "name": "武士头盔",
+    "source_name": "Samurai helm",
+    "source_member": "war3mapImported\\SamuraiHelmet.mdx",
+    "model": "hat_08"
+  },
+  {
+    "index": 9,
+    "name": "斯巴达头盔",
+    "source_name": "Spartan helm",
+    "source_member": "war3mapImported\\Spartan Helmet.mdx",
+    "model": "hat_09"
+  },
+  {
+    "index": 10,
+    "name": "巫毒面具",
+    "source_name": "Voodoo mask",
+    "source_member": "war3mapImported\\VoodooMask.mdx",
+    "model": "hat_10"
+  },
+  {
+    "index": 11,
+    "name": "萨满狼帽",
+    "source_name": "Shaman cap",
+    "source_member": "war3mapImported\\Wolf Cap by Sunchips.mdx",
+    "model": "hat_11"
+  },
+  {
+    "index": 12,
+    "name": "不戴帽子",
+    "source_name": "No hat",
+    "source_member": "",
+    "model": ""
+  },
+  {
+    "index": 13,
+    "name": "企鹅",
+    "source_name": "Penguin hat",
+    "source_member": "units\\critters\\Penguin\\Penguin.mdl",
+    "model": "hat_13"
+  },
+  {
+    "index": 14,
+    "name": "小鸡",
+    "source_name": "Chicken hat",
+    "source_member": "units\\critters\\EasterChicken\\EasterChicken.mdl",
+    "model": "hat_14"
+  },
+  {
+    "index": 15,
+    "name": "绵羊",
+    "source_name": "Sheep hat",
+    "source_member": "units\\critters\\Sheep\\Sheep.mdl",
+    "model": "hat_15"
+  },
+  {
+    "index": 16,
+    "name": "青蛙",
+    "source_name": "Frog hat",
+    "source_member": "units\\critters\\Frog\\Frog.mdl",
+    "model": "hat_16"
+  },
+  {
+    "index": 17,
+    "name": "兔子",
+    "source_name": "Rabbit hat",
+    "source_member": "units\\critters\\EasterRabbit\\EasterRabbit.mdl",
+    "model": "hat_17"
+  },
+  {
+    "index": 18,
+    "name": "小猪",
+    "source_name": "Pig hat",
+    "source_member": "units\\critters\\Pig\\Pig.mdl",
+    "model": "hat_18"
+  },
+  {
+    "index": 19,
+    "name": "浣熊",
+    "source_name": "Raccoon hat",
+    "source_member": "units\\critters\\Raccoon\\Raccoon.mdl",
+    "model": "hat_19"
+  },
+  {
+    "index": 20,
+    "name": "雄鹿",
+    "source_name": "Stag hat",
+    "source_member": "units\\critters\\BlackStagMale\\BlackStagMale.mdl",
+    "model": "hat_20"
+  },
+  {
+    "index": 21,
+    "name": "猫头鹰",
+    "source_name": "Owl hat",
+    "source_member": "units\\critters\\SnowOwl\\SnowOwl.mdl",
+    "model": "hat_21"
+  },
+  {
+    "index": 22,
+    "name": "狼",
+    "source_name": "Dog hat",
+    "source_member": "units\\critters\\BrownWolf\\BrownWolf.mdl",
+    "model": "hat_22"
+  },
+  {
+    "index": 23,
+    "name": "螃蟹",
+    "source_name": "Crab hat",
+    "source_member": "units\\critters\\SpiderCrab\\SpiderCrab.mdl",
+    "model": "hat_23"
+  },
+  {
+    "index": 24,
+    "name": "海豹",
+    "source_name": "Seal hat",
+    "source_member": "units\\critters\\Seal\\Seal.mdl",
+    "model": "hat_24"
+  },
+  {
+    "index": 25,
+    "name": "不戴帽子",
+    "source_name": "",
+    "source_member": "",
+    "model": ""
+  },
+  {
+    "index": 26,
+    "name": "牛仔帽",
+    "source_name": "Cowboy Hat",
+    "source_member": "war3mapImported\\Cowboy Hat.mdx",
+    "model": "hat_26"
+  },
+  {
+    "index": 27,
+    "name": "王冠",
+    "source_name": "Crown",
+    "source_member": "war3mapImported\\RoyalCrown.mdx",
+    "model": "hat_27"
+  },
+  {
+    "index": 28,
+    "name": "大地术士帽",
+    "source_name": "Earthbender Hat",
+    "source_member": "war3mapImported\\Earthbender.mdx",
+    "model": "hat_28"
+  },
+  {
+    "index": 29,
+    "name": "交通锥",
+    "source_name": "Traffic Cone",
+    "source_member": "war3mapImported\\Traffic Cone.mdx",
+    "model": "hat_29"
+  },
+  {
+    "index": 30,
+    "name": "钓鱼帽",
+    "source_name": "Fishing Cap",
+    "source_member": "war3mapImported\\Hat.mdx",
+    "model": "hat_30"
+  },
+  {
+    "index": 31,
+    "name": "光环",
+    "source_name": "Halo",
+    "source_member": "war3mapImported\\halo.mdx",
+    "model": "hat_31"
+  },
+  {
+    "index": 32,
+    "name": "米老鼠耳朵",
+    "source_name": "Mickey Mouse Ears",
+    "source_member": "war3mapImported\\MickeyMouseEars.mdx",
+    "model": "hat_32"
+  },
+  {
+    "index": 33,
+    "name": "问号",
+    "source_name": "Question Mark",
+    "source_member": "Objects\\RandomObject\\RandomObject.mdl",
+    "model": "hat_33"
+  },
+  {
+    "index": 34,
+    "name": "草帽",
+    "source_name": "Straw Hat",
+    "source_member": "war3mapImported\\Straw Hat.mdx",
+    "model": "hat_34"
+  },
+  {
+    "index": 35,
+    "name": "火枪手帽",
+    "source_name": "Swag Hat",
+    "source_member": "war3mapImported\\Musketeer Hat.mdx",
+    "model": "hat_35"
+  },
+  {
+    "index": 36,
+    "name": "头巾",
+    "source_name": "Turban",
+    "source_member": "war3mapImported\\Turban.mdx",
+    "model": "hat_36"
+  },
+  {
+    "index": 37,
+    "name": "队色巫师帽",
+    "source_name": "Wizard Hat",
+    "source_member": "war3mapImported\\Team Colored Mage Hat.mdx",
+    "model": "hat_37"
+  }
+]

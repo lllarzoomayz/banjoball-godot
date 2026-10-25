@@ -1,0 +1,2215 @@
+{
+  "MDEM": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_demonhuntermissile_demonhuntermissilehit1.wav",
+      "res://assets/audio/model-events/abilities_weapons_demonhuntermissile_demonhuntermissilehit2.wav",
+      "res://assets/audio/model-events/abilities_weapons_demonhuntermissile_demonhuntermissilehit3.wav"
+    ],
+    "source": {
+      "SoundName": "DemonHunterMissileHit",
+      "FileNames": "DemonHunterMissileHit1.wav,DemonHunterMissileHit2.wav,DemonHunterMissileHit3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\DemonHunterMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MDML": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_demonhuntermissile_herodemonmissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_demonhuntermissile_herodemonmissilelaunch2.wav"
+    ],
+    "source": {
+      "SoundName": "DemonHunterMissileLaunch",
+      "FileNames": "HeroDemonMissileLaunch1.wav,HeroDemonMissileLaunch2.wav",
+      "DirectoryBase": "Abilities\\Weapons\\DemonHunterMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AEFK": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herowarden_fanofknives.wav"
+    ],
+    "source": {
+      "SoundName": "FanOfKnives",
+      "FileNames": "FanOfKnives.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroWarden\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KDH1": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herodemonhunter_herodemonhunterattack1.wav"
+    ],
+    "source": {
+      "SoundName": "HeroDemonHunterAttack1",
+      "FileNames": "HeroDemonHunterAttack1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroDemonHunter\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH, DYNAMICOCCLUSION",
+      "MinDistance": 300,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KDH2": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herodemonhunter_herodemonhunterattack2.wav"
+    ],
+    "source": {
+      "SoundName": "HeroDemonHunterAttack2",
+      "FileNames": "HeroDemonHunterAttack2.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroDemonHunter\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH, DYNAMICOCCLUSION",
+      "MinDistance": 300,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DDEM": {
+    "files": [],
+    "source": {
+      "SoundName": "HeroDemonHunterDeath",
+      "FileNames": "HeroDemonHunterDeath1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroDemonHunter\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "HeroAcksEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\NightElf\\HeroDemonHunter\\HeroDemonHunterDeath1.wav"
+    ]
+  },
+  "ADHM": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herodemonhunter_demonhuntermorph1.wav"
+    ],
+    "source": {
+      "SoundName": "DemonHunterMorph",
+      "FileNames": "DemonHunterMorph1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroDemonHunter\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DDMA": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herodemonhunter_demonhunterdeathalternate1.wav"
+    ],
+    "source": {
+      "SoundName": "HeroDemonHunterDeathAlternate",
+      "FileNames": "DemonHunterDeathAlternate1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroDemonHunter\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "HeroAcksEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DDSN": {
+    "files": [
+      "res://assets/audio/model-events/sound_units_nightelf_nightelfdissipate1.wav"
+    ],
+    "source": {
+      "SoundName": "NightElfDissipate",
+      "FileNames": "NightElfDissipate1.wav",
+      "DirectoryBase": "Sound\\Units\\NightElf\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "FDFL": {
+    "files": [
+      "res://assets/audio/model-events/sound_units_footsteps_step1.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step2.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step3.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step4.wav"
+    ],
+    "source": {
+      "SoundName": "DeepFootstep",
+      "FileNames": "Step1.wav,Step2.wav,Step3.wav,Step4.wav",
+      "DirectoryBase": "Sound\\Units\\Footsteps\\",
+      "Volume": 70,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 3,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 800,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 2000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "FDFR": {
+    "files": [
+      "res://assets/audio/model-events/sound_units_footsteps_step1.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step2.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step3.wav",
+      "res://assets/audio/model-events/sound_units_footsteps_step4.wav"
+    ],
+    "source": {
+      "SoundName": "DeepFootstep",
+      "FileNames": "Step1.wav,Step2.wav,Step3.wav,Step4.wav",
+      "DirectoryBase": "Sound\\Units\\Footsteps\\",
+      "Volume": 70,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 3,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 800,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 2000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSHM": {
+    "files": [],
+    "source": {
+      "SoundName": "ShamanDeath",
+      "FileNames": "ShamanDeath.wav",
+      "DirectoryBase": "Units\\Orc\\Shaman\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Orc\\Shaman\\ShamanDeath.wav"
+    ]
+  },
+  "DWRD": {
+    "files": [],
+    "source": {
+      "SoundName": "HeroWardenDeath",
+      "FileNames": "WardenDeath1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroWarden\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "HeroAcksEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\NightElf\\HeroWarden\\WardenDeath1.wav"
+    ]
+  },
+  "KWAR": {
+    "files": [
+      "res://assets/audio/model-events/units_nightelf_herowarden_wardenattackeffort1.wav"
+    ],
+    "source": {
+      "SoundName": "WardenAttack",
+      "FileNames": "WardenAttackEffort1.wav",
+      "DirectoryBase": "Units\\NightElf\\HeroWarden\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DANP": {
+    "files": [],
+    "source": {
+      "SoundName": "TreantDeath",
+      "FileNames": "TreantDeath1.wav",
+      "DirectoryBase": "Units\\NightElf\\Treant\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [
+      "Units\\NightElf\\Treant\\TreantDeath1.wav"
+    ],
+    "muted_map_overrides": []
+  },
+  "AROO": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_root_root.wav"
+    ],
+    "source": {
+      "SoundName": "Root",
+      "FileNames": "Root.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Root\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AUPR": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_uproot_uproot.wav"
+    ],
+    "source": {
+      "SoundName": "Uproot",
+      "FileNames": "Uproot.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Uproot\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KAP1": {
+    "files": [],
+    "source": {
+      "SoundName": "AncientProtectorMeleeAttack1",
+      "FileNames": "TreantAttack1.wav",
+      "DirectoryBase": "Units\\NightElf\\AncientProtector\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [
+      "Units\\NightElf\\AncientProtector\\TreantAttack1.wav"
+    ],
+    "muted_map_overrides": []
+  },
+  "KAP2": {
+    "files": [],
+    "source": {
+      "SoundName": "AncientProtectorMeleeAttack2",
+      "FileNames": "TreantAttack2.wav",
+      "DirectoryBase": "Units\\NightElf\\AncientProtector\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [
+      "Units\\NightElf\\AncientProtector\\TreantAttack2.wav"
+    ],
+    "muted_map_overrides": []
+  },
+  "DELB": {
+    "files": [],
+    "source": {
+      "SoundName": "DeathNightElfLargeBuilding",
+      "FileNames": "NightElfBuildingDeathLarge1.wav",
+      "DirectoryBase": "Sound\\Buildings\\Death\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 110,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT,LISTFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Sound\\Buildings\\Death\\NightElfBuildingDeathLarge1.wav"
+    ]
+  },
+  "DEBA": {
+    "files": [
+      "res://assets/audio/model-events/sound_buildings_death_ancientuprootdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "DeathWalkingNightElfBuilding",
+      "FileNames": "AncientUprootDeath1.wav",
+      "DirectoryBase": "Sound\\Buildings\\Death\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 110,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT,LISTFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AEAT": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_eattree_eattreetarget1.wav"
+    ],
+    "source": {
+      "SoundName": "EatTreeMunch",
+      "FileNames": "EatTreeTarget1.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\EatTree\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DFRT": {
+    "files": [],
+    "source": {
+      "SoundName": "ForestTrollDeath",
+      "FileNames": "ForestTrollDeath.wav",
+      "DirectoryBase": "Units\\Creeps\\ForestTroll\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Creeps\\ForestTroll\\ForestTrollDeath.wav"
+    ]
+  },
+  "ABSK": {
+    "files": [
+      "res://assets/audio/model-events/units_orc_grunt_berserkercaster.wav"
+    ],
+    "source": {
+      "SoundName": "BerserkerRage",
+      "FileNames": "BerserkerCaster.wav",
+      "DirectoryBase": "Units\\Orc\\Grunt\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 1000,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSOR": {
+    "files": [],
+    "source": {
+      "SoundName": "SorceressDeath",
+      "FileNames": "SorceressDeath.wav",
+      "DirectoryBase": "Units\\Human\\Sorceress\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Human\\Sorceress\\SorceressDeath.wav"
+    ]
+  },
+  "DWSP": {
+    "files": [],
+    "source": {
+      "SoundName": "WispDeath",
+      "FileNames": "WispDeath1.wav",
+      "DirectoryBase": "Units\\NightElf\\Wisp\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\NightElf\\Wisp\\WispDeath1.wav"
+    ]
+  },
+  "DWTC": {
+    "files": [],
+    "source": {
+      "SoundName": "WatcherDeath",
+      "FileNames": "WatcherDeath1.wav",
+      "DirectoryBase": "Units\\Creeps\\Watcher\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 0,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Creeps\\Watcher\\WatcherDeath1.wav"
+    ]
+  },
+  "DINF": {
+    "files": [],
+    "source": {
+      "SoundName": "InfernalDeath",
+      "FileNames": "InfernalDeath.wav",
+      "DirectoryBase": "Units\\Demon\\Infernal\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Demon\\Infernal\\InfernalDeath.wav"
+    ]
+  },
+  "KIN1": {
+    "files": [
+      "res://assets/audio/model-events/units_demon_infernal_infernalattack1.wav"
+    ],
+    "source": {
+      "SoundName": "InfernalAttack1",
+      "FileNames": "InfernalAttack1.wav",
+      "DirectoryBase": "Units\\Demon\\Infernal\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KIN2": {
+    "files": [
+      "res://assets/audio/model-events/units_demon_infernal_infernalattack2.wav"
+    ],
+    "source": {
+      "SoundName": "InfernalAttack2",
+      "FileNames": "InfernalAttack2.wav",
+      "DirectoryBase": "Units\\Demon\\Infernal\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ACRS": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_curse_cursetarget1.wav"
+    ],
+    "source": {
+      "SoundName": "Curse",
+      "FileNames": "CurseTarget1.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\Curse\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DDSH": {
+    "files": [
+      "res://assets/audio/model-events/sound_units_human_humandissipate1.wav"
+    ],
+    "source": {
+      "SoundName": "HumanDissipate",
+      "FileNames": "HumanDissipate1.wav",
+      "DirectoryBase": "Sound\\Units\\Human\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MFLL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_searingarrow_searingarrowmissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_searingarrow_searingarrowmissilelaunch2.wav",
+      "res://assets/audio/model-events/abilities_weapons_searingarrow_searingarrowmissilelaunch3.wav"
+    ],
+    "source": {
+      "SoundName": "SearingArrowLaunch",
+      "FileNames": "SearingArrowMissileLaunch1.wav,SearingArrowMissileLaunch2.wav,SearingArrowMissileLaunch3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\SearingArrow\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MFRL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_fireballmissile_fireballmissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_fireballmissile_fireballmissilelaunch2.wav",
+      "res://assets/audio/model-events/abilities_weapons_fireballmissile_fireballmissilelaunch3.wav"
+    ],
+    "source": {
+      "SoundName": "FireballLaunch",
+      "FileNames": "FireBallMissileLaunch1.wav,FireBallMissileLaunch2.wav,FireBallMissileLaunch3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\FireBallMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MGRL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch2.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch3.wav"
+    ],
+    "source": {
+      "SoundName": "GargoyleMissileLaunch",
+      "FileNames": "GargoyleMissileLaunch1.wav,GargoyleMissileLaunch2.wav,GargoyleMissileLaunch3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\GargoyleMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DPES": {
+    "files": [],
+    "source": {
+      "SoundName": "PeasantDeath",
+      "FileNames": "PeasantDeath.wav",
+      "DirectoryBase": "Units\\Human\\Peasant\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Human\\Peasant\\PeasantDeath.wav"
+    ]
+  },
+  "AREP": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_other_repair_peonrepair1.wav",
+      "res://assets/audio/model-events/abilities_spells_other_repair_peonrepair2.wav",
+      "res://assets/audio/model-events/abilities_spells_other_repair_peonrepair3.wav"
+    ],
+    "source": {
+      "SoundName": "Repair",
+      "FileNames": "PeonRepair1.wav,PeonRepair2.wav,PeonRepair3.wav",
+      "DirectoryBase": "Abilities\\Spells\\Other\\Repair\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DOGR": {
+    "files": [],
+    "source": {
+      "SoundName": "OgreDeath",
+      "FileNames": "OgreDeath1.wav",
+      "DirectoryBase": "Units\\Creeps\\Ogre\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Creeps\\Ogre\\OgreDeath1.wav"
+    ]
+  },
+  "DBAN": {
+    "files": [],
+    "source": {
+      "SoundName": "BansheeDeath",
+      "FileNames": "BansheeDeath.wav",
+      "DirectoryBase": "Units\\Undead\\Banshee\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Units\\Undead\\Banshee\\BansheeDeath.wav"
+    ]
+  },
+  "DSND": {
+    "files": [
+      "res://assets/audio/model-events/units_naga_snapdragon_snapdragondeath.wav"
+    ],
+    "source": {
+      "SoundName": "SnapDragonDeath",
+      "FileNames": "SnapDragonDeath.wav",
+      "DirectoryBase": "Units\\Naga\\SnapDragon\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 0,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DTAU": {
+    "files": [
+      "res://assets/audio/model-events/units_orc_tauren_taurendeath1.wav"
+    ],
+    "source": {
+      "SoundName": "TaurenDeath",
+      "FileNames": "TaurenDeath1.wav",
+      "DirectoryBase": "Units\\Orc\\Tauren\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AWRS": {
+    "files": [
+      "res://assets/audio/model-events/units_orc_tauren_warstomp.wav"
+    ],
+    "source": {
+      "SoundName": "Pulverize",
+      "FileNames": "Warstomp.wav",
+      "DirectoryBase": "Units\\Orc\\Tauren\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 800,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSAT": {
+    "files": [
+      "res://assets/audio/model-events/units_creeps_satyr_satyrdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "SatyrDeath",
+      "FileNames": "SatyrDeath1.wav",
+      "DirectoryBase": "Units\\Creeps\\Satyr\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AEBA": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_barkskin_barkskintarget1.wav"
+    ],
+    "source": {
+      "SoundName": "Barkskin",
+      "FileNames": "BarkSkinTarget1.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Barkskin\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DPAL": {
+    "files": [
+      "res://assets/audio/model-events/units_human_heropaladin_heropaladindeath.wav"
+    ],
+    "source": {
+      "SoundName": "HeroPaladinDeath",
+      "FileNames": "HeroPaladinDeath.wav",
+      "DirectoryBase": "Units\\Human\\HeroPaladin\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "HeroAcksEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KPL1": {
+    "files": [
+      "res://assets/audio/model-events/units_human_heropaladin_heropaladinattack1.wav"
+    ],
+    "source": {
+      "SoundName": "HeroPaladinAttack1",
+      "FileNames": "HeroPaladinAttack1.wav",
+      "DirectoryBase": "Units\\Human\\HeroPaladin\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "KPL2": {
+    "files": [
+      "res://assets/audio/model-events/units_human_heropaladin_heropaladinattack2.wav"
+    ],
+    "source": {
+      "SoundName": "HeroPaladinAttack2",
+      "FileNames": "HeroPaladinAttack2.wav",
+      "DirectoryBase": "Units\\Human\\HeroPaladin\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "CombatSoundsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MSVL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch2.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilelaunch3.wav"
+    ],
+    "source": {
+      "SoundName": "GargoyleMissileLaunch",
+      "FileNames": "GargoyleMissileLaunch1.wav,GargoyleMissileLaunch2.wav,GargoyleMissileLaunch3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\GargoyleMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MSVH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilehit1.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilehit2.wav",
+      "res://assets/audio/model-events/abilities_weapons_gargoylemissile_gargoylemissilehit3.wav"
+    ],
+    "source": {
+      "SoundName": "GargoyleMissileHit",
+      "FileNames": "GargoyleMissileHit1.wav,GargoyleMissileHit2.wav,GargoyleMissileHit3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\GargoyleMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MWAT": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_waterelementalmissile_waterelementalmissile1.wav",
+      "res://assets/audio/model-events/abilities_weapons_waterelementalmissile_waterelementalmissile2.wav",
+      "res://assets/audio/model-events/abilities_weapons_waterelementalmissile_waterelementalmissile3.wav"
+    ],
+    "source": {
+      "SoundName": "WaterElementalMissile",
+      "FileNames": "WaterElementalMissile1.wav,WaterElementalMissile2.wav,WaterElementalMissile3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\WaterElementalMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MSBL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_priestmissile_priestcastattack1.wav"
+    ],
+    "source": {
+      "SoundName": "PriestMissileLaunch",
+      "FileNames": "PriestCastAttack1.wav",
+      "DirectoryBase": "Abilities\\Weapons\\PriestMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ANBA": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_other_blackarrow_theblackarrow.wav"
+    ],
+    "source": {
+      "SoundName": "BlackArrowHit",
+      "FileNames": "TheBlackArrow.wav",
+      "DirectoryBase": "Abilities\\Spells\\Other\\BlackArrow\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DHLB": {
+    "files": [
+      "res://assets/audio/model-events/sound_buildings_death_buildingdeathlargehuman.wav"
+    ],
+    "source": {
+      "SoundName": "DeathHumanLargeBuilding",
+      "FileNames": "BuildingDeathLargeHuman.wav",
+      "DirectoryBase": "Sound\\Buildings\\Death\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 110,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT,LISTFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MKGL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilelaunch1.wav",
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilelaunch2.wav",
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilelaunch3.wav"
+    ],
+    "source": {
+      "SoundName": "KeeperOfTheGroveMissileLaunch",
+      "FileNames": "KeeperOfTheGroveMissileLaunch1.wav,KeeperOfTheGroveMissileLaunch2.wav,KeeperOfTheGroveMissileLaunch3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\KeeperGroveMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MKGH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilehit1.wav",
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilehit2.wav",
+      "res://assets/audio/model-events/abilities_weapons_keepergrovemissile_keeperofthegrovemissilehit3.wav"
+    ],
+    "source": {
+      "SoundName": "KeeperOfTheGroveMissileHit",
+      "FileNames": "KeeperOfTheGroveMissileHit1.wav,KeeperOfTheGroveMissileHit2.wav,KeeperOfTheGroveMissileHit3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\KeeperGroveMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ASKW": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_raiseskeletonwarrior_raiseskeleton.wav"
+    ],
+    "source": {
+      "SoundName": "RaiseSkeletonWarrior",
+      "FileNames": "RaiseSkeleton.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSKE": {
+    "files": [
+      "res://assets/audio/model-events/units_undead_skeleton_skeletondeath1.wav"
+    ],
+    "source": {
+      "SoundName": "SkeletonDeath",
+      "FileNames": "SkeletonDeath1.wav",
+      "DirectoryBase": "Units\\Undead\\Skeleton\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MARR": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_arrow_arrowimpact.wav"
+    ],
+    "source": {
+      "SoundName": "ArrowHit",
+      "FileNames": "ArrowImpact.wav",
+      "DirectoryBase": "Abilities\\Weapons\\Arrow\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MARL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_arrow_arrowattack1.wav"
+    ],
+    "source": {
+      "SoundName": "ArrowLaunch",
+      "FileNames": "ArrowAttack1.wav",
+      "DirectoryBase": "Abilities\\Weapons\\Arrow\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MFDL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_faeriedragonmissile_faeriedragonattack.wav"
+    ],
+    "source": {
+      "SoundName": "FaerieDragonLaunch",
+      "FileNames": "FaerieDragonAttack.wav",
+      "DirectoryBase": "Abilities\\Weapons\\FaerieDragonMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MZGH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_zigguratmissile_zigguratmissilehit1.wav",
+      "res://assets/audio/model-events/abilities_weapons_zigguratmissile_zigguratmissilehit2.wav",
+      "res://assets/audio/model-events/abilities_weapons_zigguratmissile_zigguratmissilehit3.wav"
+    ],
+    "source": {
+      "SoundName": "ZigguratMissileHit",
+      "FileNames": "ZigguratMissileHit1.wav,ZigguratMissileHit2.wav,ZigguratMissileHit3.wav",
+      "DirectoryBase": "Abilities\\Weapons\\ZigguratMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AOSH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_orc_shockwave_shockwave.wav"
+    ],
+    "source": {
+      "SoundName": "ShockWave",
+      "FileNames": "Shockwave.wav",
+      "DirectoryBase": "Abilities\\Spells\\Orc\\Shockwave\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MABS": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_absorbmana_absorbmana.wav"
+    ],
+    "source": {
+      "SoundName": "AbsorbManaLaunch",
+      "FileNames": "AbsorbMana.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\AbsorbMana\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D,RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ABLO": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_orc_bloodlust_bloodlusttarget.wav"
+    ],
+    "source": {
+      "SoundName": "Bloodlust",
+      "FileNames": "BloodlustTarget.wav",
+      "DirectoryBase": "Abilities\\Spells\\Orc\\Bloodlust\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ACSI": {
+    "files": [],
+    "source": {
+      "SoundName": "Silence",
+      "FileNames": "Silence1.wav",
+      "DirectoryBase": "Abilities\\Spells\\Other\\Silence\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": [
+      "Abilities\\Spells\\Other\\Silence\\Silence1.wav"
+    ]
+  },
+  "MDLL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_avengermissile_destroyermissile.wav"
+    ],
+    "source": {
+      "SoundName": "DestroyerMissileLaunch",
+      "FileNames": "DestroyerMissile.wav",
+      "DirectoryBase": "Abilities\\Weapons\\AvengerMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AHTC": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_human_thunderclap_thunderclapcaster.wav"
+    ],
+    "source": {
+      "SoundName": "ThunderClap",
+      "FileNames": "ThunderClapCaster.wav",
+      "DirectoryBase": "Abilities\\Spells\\Human\\ThunderClap\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AOMI": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_orc_mirrorimage_mirrorimagedeath.wav"
+    ],
+    "source": {
+      "SoundName": "MirrorImageDeath",
+      "FileNames": "MirrorImageDeath.wav",
+      "DirectoryBase": "Abilities\\Spells\\Orc\\MirrorImage\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AUDA": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_darkritual_darkritualtarget1.wav"
+    ],
+    "source": {
+      "SoundName": "DarkRitual",
+      "FileNames": "DarkRitualTarget1.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\DarkRitual\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ATAU": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_taunt_taunt.wav"
+    ],
+    "source": {
+      "SoundName": "Taunt",
+      "FileNames": "Taunt.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Taunt\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AHHB": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_human_holybolt_holybolt.wav"
+    ],
+    "source": {
+      "SoundName": "HolyBolt",
+      "FileNames": "HolyBolt.wav",
+      "DirectoryBase": "Abilities\\Spells\\Human\\HolyBolt\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "APSL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_possession_possessionmissilelaunch1.wav"
+    ],
+    "source": {
+      "SoundName": "PossessionMissileLaunch",
+      "FileNames": "PossessionMissileLaunch1.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\Possession\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 900,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "APSH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_possession_possessionmissilehit1.wav"
+    ],
+    "source": {
+      "SoundName": "PossessionMissileHit",
+      "FileNames": "PossessionMissileHit1.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\Possession\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 900,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "APLD": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_human_polymorph_polymorphdone.wav"
+    ],
+    "source": {
+      "SoundName": "PolymorphDone",
+      "FileNames": "PolymorphDone.wav",
+      "DirectoryBase": "Abilities\\Spells\\Human\\Polymorph\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AEBL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_blink_blinkbirth1.wav"
+    ],
+    "source": {
+      "SoundName": "BlinkCaster",
+      "FileNames": "BlinkBirth1.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Blink\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AEBT": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_blink_blinkarrival1.wav"
+    ],
+    "source": {
+      "SoundName": "BlinkTarget",
+      "FileNames": "BlinkArrival1.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\Blink\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "AUIH": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_undead_impale_impaleland.wav"
+    ],
+    "source": {
+      "SoundName": "ImpaleLand",
+      "FileNames": "ImpaleLand.wav",
+      "DirectoryBase": "Abilities\\Spells\\Undead\\Impale\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "ABTR": {
+    "files": [
+      "res://assets/audio/model-events/abilities_spells_nightelf_battleroar_battleroar.wav"
+    ],
+    "source": {
+      "SoundName": "BattleRoar",
+      "FileNames": "BattleRoar.wav",
+      "DirectoryBase": "Abilities\\Spells\\NightElf\\BattleRoar\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 8,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "SpellsEAX",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "MPXL": {
+    "files": [
+      "res://assets/audio/model-events/abilities_weapons_phoenixmissile_phoenixattack.wav"
+    ],
+    "source": {
+      "SoundName": "PhoenixMissileLaunch",
+      "FileNames": "PhoenixAttack.wav",
+      "DirectoryBase": "Abilities\\Weapons\\PhoenixMissile\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0.1,
+      "Priority": 5,
+      "Channel": 11,
+      "Flags": "WANT3D, RANDOMPITCH",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "MissilesEAX",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DPEN": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_penguin_penguindeath1.wav"
+    ],
+    "source": {
+      "SoundName": "PenguinDeath",
+      "FileNames": "PenguinDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\Penguin\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 0,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DVUL": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_vulture_vulturedeath1.wav"
+    ],
+    "source": {
+      "SoundName": "VultureDeath",
+      "FileNames": "VultureDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\Vulture\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSHP": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_sheep_sheepdeath.wav"
+    ],
+    "source": {
+      "SoundName": "SheepDeath",
+      "FileNames": "SheepDeath.wav",
+      "DirectoryBase": "Units\\Critters\\Sheep\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSHW": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_sheep_sheepdeathswim1.wav"
+    ],
+    "source": {
+      "SoundName": "SheepDeathSwim",
+      "FileNames": "SheepDeathSwim1.wav",
+      "DirectoryBase": "Units\\Critters\\Sheep\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DFRG": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_rat_ratdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "RatDeath",
+      "FileNames": "RatDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\Rat\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 0,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DWLF": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_wolf_wolfdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "WolfDeath",
+      "FileNames": "WolfDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\Wolf\\",
+      "Volume": 70,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DPIG": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_pig_pigdeath.wav"
+    ],
+    "source": {
+      "SoundName": "PigDeath",
+      "FileNames": "PigDeath.wav",
+      "DirectoryBase": "Units\\Critters\\Pig\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DBSM": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_blackstagmale_moosedeath1.wav"
+    ],
+    "source": {
+      "SoundName": "BlackStagMaleDeath",
+      "FileNames": "MooseDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\BlackStagMale\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DOWL": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_snowowl_owldeath1.wav"
+    ],
+    "source": {
+      "SoundName": "SnowOwlDeath",
+      "FileNames": "OwlDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\SnowOwl\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 0,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSPC": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_spidercrab_crabdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "SpiderCrabDeath",
+      "FileNames": "CrabDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\SpiderCrab\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 1
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DHMC": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_hermitcrab_hermitcrabdeath1.wav"
+    ],
+    "source": {
+      "SoundName": "HermitCrabDeath",
+      "FileNames": "HermitCrabDeath1.wav",
+      "DirectoryBase": "Units\\Critters\\HermitCrab\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  },
+  "DSEL": {
+    "files": [
+      "res://assets/audio/model-events/units_critters_seal_sealdeath.wav"
+    ],
+    "source": {
+      "SoundName": "SealDeath",
+      "FileNames": "SealDeath.wav",
+      "DirectoryBase": "Units\\Critters\\Seal\\",
+      "Volume": 127,
+      "Pitch": 1,
+      "PitchVariance": 0,
+      "Priority": 10,
+      "Channel": 11,
+      "Flags": "WANT3D,CHANNELFULLPREEMPT",
+      "MinDistance": 600,
+      "MaxDistance": 10000,
+      "DistanceCutoff": 3000,
+      "EAXFlags": "DefaultEAXON",
+      "InBeta": 1,
+      "version": 0
+    },
+    "missing": [],
+    "muted_map_overrides": []
+  }
+}

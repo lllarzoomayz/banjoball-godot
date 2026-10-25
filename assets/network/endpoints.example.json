@@ -1,0 +1,5 @@
+{
+  "public": "127.0.0.1:27888",
+  "deployment": "local-development",
+  "lan": "127.0.0.1:27888"
+}

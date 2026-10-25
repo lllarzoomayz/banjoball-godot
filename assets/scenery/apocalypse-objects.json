@@ -1,0 +1,353 @@
+{
+  "source_sha256": "1d8c2ab2a2cc7ea590306fd70dd5eb3fa8f2649e6ca68c4bb2e03dd1d3494300",
+  "objects": {
+    "h003": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 62.0
+    },
+    "h004": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 61.0
+    },
+    "h005": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 62.0
+    },
+    "h00E": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 140.0,
+      "mass": 62.0
+    },
+    "h00F": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 59.0
+    },
+    "h00P": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 170.0,
+      "mass": 68.0
+    },
+    "h00R": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 61.0
+    },
+    "h00T": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 63.0
+    },
+    "h00V": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    },
+    "h00W": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    },
+    "h00Y": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 160.0,
+      "mass": 58.0
+    },
+    "h010": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 120.0,
+      "mass": 56.0
+    },
+    "h001": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 59.0
+    },
+    "h011": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 8.0
+    },
+    "h012": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 62.0
+    },
+    "h01I": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 155.0,
+      "mass": 61.0
+    },
+    "h01K": {
+      "object": true,
+      "player": false,
+      "locust": false,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    },
+    "h01L": {
+      "object": true,
+      "player": false,
+      "locust": false,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    },
+    "h01N": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 61.0
+    },
+    "h01R": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 61.0
+    },
+    "h01S": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    },
+    "h026": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 165.0,
+      "mass": 67.0
+    },
+    "h028": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 62.0
+    },
+    "h029": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 58.0
+    },
+    "h02C": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 160.0,
+      "mass": 65.0
+    },
+    "h027": {
+      "object": true,
+      "player": true,
+      "locust": false,
+      "radius": 30.0,
+      "height": 155.0,
+      "mass": 58.0
+    },
+    "h02A": {
+      "object": true,
+      "player": false,
+      "locust": true,
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 0.0
+    }
+  },
+  "property_table": {
+    "h00F": {
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 59.0
+    },
+    "h004": {
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 61.0
+    },
+    "h00P": {
+      "radius": 30.0,
+      "height": 170.0,
+      "mass": 68.0
+    },
+    "h003": {
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 62.0
+    },
+    "h005": {
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 62.0
+    },
+    "h00R": {
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 61.0
+    },
+    "h010": {
+      "radius": 30.0,
+      "height": 120.0,
+      "mass": 56.0
+    },
+    "h00Y": {
+      "radius": 30.0,
+      "height": 160.0,
+      "mass": 58.0
+    },
+    "h001": {
+      "radius": 30.0,
+      "height": 145.0,
+      "mass": 59.0
+    },
+    "h012": {
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 62.0
+    },
+    "h01I": {
+      "radius": 30.0,
+      "height": 155.0,
+      "mass": 61.0
+    },
+    "h01N": {
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 61.0
+    },
+    "h01R": {
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 61.0
+    },
+    "h026": {
+      "radius": 30.0,
+      "height": 165.0,
+      "mass": 67.0
+    },
+    "h028": {
+      "radius": 30.0,
+      "height": 150.0,
+      "mass": 62.0
+    },
+    "h029": {
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 58.0
+    },
+    "h02C": {
+      "radius": 30.0,
+      "height": 160.0,
+      "mass": 65.0
+    },
+    "h027": {
+      "radius": 30.0,
+      "height": 155.0,
+      "mass": 58.0
+    },
+    "h00T": {
+      "radius": 30.0,
+      "height": 140.0,
+      "mass": 63.0
+    },
+    "h00E": {
+      "radius": 0.0,
+      "height": 140.0,
+      "mass": 62.0
+    },
+    "h000": {
+      "radius": 25.0,
+      "height": 40.0,
+      "mass": 15.0
+    },
+    "LTlt": {
+      "radius": 35.0,
+      "height": 726.0,
+      "mass": 360.0
+    },
+    "WTst": {
+      "radius": 35.0,
+      "height": 726.0,
+      "mass": 360.0
+    },
+    "h011": {
+      "radius": 0.0,
+      "height": 0.0,
+      "mass": 8.0
+    },
+    "h02D": {
+      "radius": 50.0,
+      "height": 200.0,
+      "mass": 500.0
+    }
+  },
+  "notes": [
+    "ANCIENT includes the tackle shadow and referee; TAUREN alone does not imply object.",
+    "Object radius is the custom JASS table, not SLK ucol.",
+    "Non-Locust BizTree remains enumerable in native radius queries."
+  ]
+}

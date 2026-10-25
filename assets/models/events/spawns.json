@@ -1,0 +1,83 @@
+{
+  "NBDH": {
+    "model": "ev_spawn_nbdh",
+    "source": {
+      "Name": "NBDH",
+      "Model": "Objects\\Spawnmodels\\NightElf\\NightElfBlood\\NightElfBloodHeroDemonHunter.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "DNAS": {
+    "model": "ev_spawn_dnas",
+    "source": {
+      "Name": "DNAS",
+      "Model": "Objects\\Spawnmodels\\NightElf\\NEDeathSmall\\NEDeathSmall.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "HBS0": {
+    "model": "",
+    "source": {
+      "Name": "HBS0",
+      "Model": "Objects\\Spawnmodels\\Human\\HumanBlood\\HumanBloodSmall0.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "missing": true,
+    "empty_override": false
+  },
+  "HBF0": {
+    "model": "ev_spawn_hbf0",
+    "source": {
+      "Name": "HBF0",
+      "Model": "Objects\\Spawnmodels\\Human\\HumanBlood\\HumanBloodFootman.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "HBP0": {
+    "model": "ev_spawn_hbp0",
+    "source": {
+      "Name": "HBP0",
+      "Model": "Objects\\Spawnmodels\\Human\\HumanBlood\\HumanBloodPeasant.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "UBAC": {
+    "model": "ev_spawn_ubac",
+    "source": {
+      "Name": "UBAC",
+      "Model": "Objects\\Spawnmodels\\Undead\\UndeadBlood\\UndeadBloodAcolyte.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "OBT0": {
+    "model": "ev_spawn_obt0",
+    "source": {
+      "Name": "OBT0",
+      "Model": "Objects\\Spawnmodels\\Orc\\Orcblood\\OrcBloodTauren.mdl",
+      "version": 0,
+      "InBeta": 1
+    },
+    "empty_override": false
+  },
+  "CBAL": {
+    "model": "ev_spawn_cbal",
+    "source": {
+      "Name": "CBAL",
+      "Model": "Objects\\Spawnmodels\\Critters\\Albatross\\CritterBloodAlbatross.mdl",
+      "version": 1,
+      "InBeta": 1
+    },
+    "empty_override": false
+  }
+}

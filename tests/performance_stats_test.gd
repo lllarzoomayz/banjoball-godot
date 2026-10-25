@@ -1,0 +1,38 @@
+extends SceneTree
+const Stats=preload("res://scripts/performance_stats.gd")
+var passed=0
+var failures=[]
+func check(ok: bool,message: String):
+	if ok:passed+=1
+	else:failures.append(message);printerr("FAIL "+message)
+func _initialize():call_deferred("run")
+func run():
+	var stats=Stats.new()
+	check(stats.snapshot().frames==0,"empty window has no fabricated FPS")
+	stats.add({"frame_ms":0});stats.add({"frame_ms":NAN})
+	check(stats.total_frames==0,"invalid intervals are ignored")
+	for i in range(600):stats.add({"frame_ms":1000.0/60,"cpu_ms":3,"gpu_ms":null,"sim_ms":1})
+	var view=stats.snapshot()
+	check(absf(view.fps-60)<0.001 and absf(view.fps_recent-60)<0.001,"wall intervals report 60 FPS")
+	check(absf(view.p95_ms-1000.0/60)<0.001 and view.over50==0,"60 FPS is not a stutter")
+	check(not view.average.has("gpu_ms"),"unsupported GPU stays unavailable")
+	stats.add({"frame_ms":120,"cpu_ms":90,"sim_ms":85,"gpu_ms":null})
+	view=stats.snapshot()
+	check(view.over50==1 and view.over100==1 and view.max_ms==120,"a single hitch survives half-second refreshes")
+	check(view.worst.sim_ms==85 and view.peak.cpu_ms==90,"worst frame retains correlated script timings")
+	for i in range(700):stats.add({"frame_ms":1000.0/60,"cpu_ms":2,"gpu_ms":4})
+	view=stats.snapshot()
+	check(view.over100==0 and view.session_over100==1,"rolling and session counts differ after old hitch expires")
+	check(view.average.gpu_ms==4,"valid GPU samples average correctly")
+	check(stats.samples.size()<=601,"ten-second window stays bounded")
+	stats.clear()
+	for i in range(300):stats.add({"frame_ms":1000.0/30,"cpu_ms":2})
+	view=stats.snapshot()
+	check(absf(view.fps-30)<0.001 and view.over50==0,"30 FPS cap is not a stutter")
+	check(view.average.cpu_ms==2,"frame interval is not mislabeled as CPU work")
+	for i in range(5000):stats.add({"frame_ms":0.1,"cpu_ms":0.01})
+	check(stats.samples.size()<=Stats.LIMIT,"unlimited FPS cannot grow telemetry without bound")
+	stats.clear();check(stats.worst.is_empty() and stats.total_frames==0,"reset drops previous scene history")
+	FileAccess.open("res://research/performance-stats-test.json",FileAccess.WRITE).store_string(JSON.stringify({"passed":passed,"failures":failures},"\t"))
+	print("PERFORMANCE CHECKS ",passed," passed; ",failures.size()," failed")
+	quit(1 if not failures.is_empty() else 0)

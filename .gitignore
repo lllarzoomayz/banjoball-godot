@@ -1,0 +1,46 @@
+# Local imports, editor caches and build products
+.godot/
+.local/
+builds/
+node_modules/
+__pycache__/
+*.pyc
+*.import
+*.log
+*.stderr
+*.tmp
+*.os
+.sconsign*
+# Credentials and user data must never be committed
+server/data/
+server/config.json
+assets/network/server.crt
+assets/network/endpoints.json
+assets/network/easytier.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.sqlite*
+*.db
+*.db-*
+.env
+.env.*
+!.env.example
+local-signing.json
+export_presets.cfg
+*.apk
+*.aab
+*.zip
+*.tar
+*.gz
+*.7z
+# Tests write their own reports here; only the runtime inputs are versioned
+research/*
+!research/actors.json
+!research/fields.json
+!research/authored-pathing.json
+!research/native-math-tables.json
+!research/lightning-assets.json

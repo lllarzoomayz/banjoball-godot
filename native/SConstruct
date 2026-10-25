@@ -1,0 +1,8 @@
+import os
+env = SConscript(os.environ['BANJO_GODOT_CPP'] + '/SConstruct')
+env.Append(CXXFLAGS=['-ffp-contract=off'])
+if env['platform'] == 'android':
+    env.Append(LINKFLAGS=['-static-libstdc++', '-Wl,-z,max-page-size=16384'])
+revision = '.049' if env['platform'] == 'windows' else ''
+library = env.SharedLibrary('../bin/libbanjo' + revision + '.' + env['platform'] + '.' + env['arch'] + env['SHLIBSUFFIX'], ['accelerator.cpp'])
+Default(library)

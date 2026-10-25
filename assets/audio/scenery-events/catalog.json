@@ -1,0 +1,92 @@
+{
+  "types": {
+    "ATtr": "TreeWallDeath",
+    "B000": "CrateDeath",
+    "B006": "_",
+    "B00C": "_",
+    "B00D": "_",
+    "ITig": "RockWallDeath",
+    "LTcr": "CrateDeath",
+    "LTlt": "TreeWallDeath",
+    "WTst": "TreeWallDeath",
+    "YTpb": "_",
+    "B001": "CrateDeath",
+    "B002": "CrateDeath",
+    "B003": "CrateDeath",
+    "B004": "CrateDeath",
+    "B005": "CrateDeath"
+  },
+  "sounds": {
+    "CrateDeath": {
+      "files": [
+        "res://assets/audio/scenery-events/sound_destructibles_cratedeath1.wav"
+      ],
+      "source": {
+        "SoundName": "CrateDeath",
+        "FileNames": "CrateDeath1.wav",
+        "DirectoryBase": "Sound\\Destructibles\\",
+        "Volume": 127,
+        "Pitch": 1,
+        "PitchVariance": 0,
+        "Priority": 10,
+        "Channel": 11,
+        "Flags": "WANT3D,CHANNELFULLPREEMPT",
+        "MinDistance": 600,
+        "MaxDistance": 10000,
+        "DistanceCutoff": 3000,
+        "EAXFlags": "DefaultEAXON",
+        "InBeta": 1,
+        "version": 0
+      },
+      "muted_map_overrides": []
+    },
+    "RockWallDeath": {
+      "files": [
+        "res://assets/audio/scenery-events/sound_buildings_death_buildingdeathsmallhuman.wav"
+      ],
+      "source": {
+        "SoundName": "RockWallDeath",
+        "FileNames": "BuildingDeathSmallHuman.wav",
+        "DirectoryBase": "Sound\\Buildings\\Death\\",
+        "Volume": 127,
+        "Pitch": 1,
+        "PitchVariance": 0.1,
+        "Priority": 10,
+        "Channel": 11,
+        "Flags": "WANT3D,CHANNELFULLPREEMPT, RANDOMPITCH",
+        "MinDistance": 600,
+        "MaxDistance": 10000,
+        "DistanceCutoff": 3000,
+        "EAXFlags": "DefaultEAXON",
+        "InBeta": 1,
+        "version": 0
+      },
+      "muted_map_overrides": []
+    },
+    "TreeWallDeath": {
+      "files": [
+        "res://assets/audio/scenery-events/sound_destructibles_treefall1.wav",
+        "res://assets/audio/scenery-events/sound_destructibles_treefall2.wav",
+        "res://assets/audio/scenery-events/sound_destructibles_treefall3.wav"
+      ],
+      "source": {
+        "SoundName": "TreeWallDeath",
+        "FileNames": "TreeFall1.wav,TreeFall2.wav,TreeFall3.wav",
+        "DirectoryBase": "Sound\\Destructibles\\",
+        "Volume": 127,
+        "Pitch": 1,
+        "PitchVariance": 0,
+        "Priority": 10,
+        "Channel": 11,
+        "Flags": "WANT3D,CHANNELFULLPREEMPT",
+        "MinDistance": 600,
+        "MaxDistance": 10000,
+        "DistanceCutoff": 3000,
+        "EAXFlags": "DefaultEAXON",
+        "InBeta": 1,
+        "version": 0
+      },
+      "muted_map_overrides": []
+    }
+  }
+}

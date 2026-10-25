@@ -1,0 +1,375 @@
+{
+  "B000_0": {
+    "member": "war3mapImported\\WaterPlane.mdx",
+    "interval": [
+      0,
+      3333
+    ],
+    "periods": [
+      1000
+    ],
+    "textures": [
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.01.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.02.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.03.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.04.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.05.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.06.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.07.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.08.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.09.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.10.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.11.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.12.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.13.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.14.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.15.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.16.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.17.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.18.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.19.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.20.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.21.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.22.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.23.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.24.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.25.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.26.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.27.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.28.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.29.blp",
+        "Flags": 0
+      },
+      {
+        "ReplaceableId": 0,
+        "Image": "UI\\Glues\\MainMenu\\MainMenu3d_exp\\ocean_h.30.blp",
+        "Flags": 0
+      }
+    ],
+    "meshes": [
+      {
+        "layers": [
+          {
+            "FilterMode": 2,
+            "Shading": 0,
+            "TextureID": {
+              "Keys": [
+                {
+                  "Frame": 0,
+                  "Vector": [
+                    0
+                  ]
+                },
+                {
+                  "Frame": 33,
+                  "Vector": [
+                    1
+                  ]
+                },
+                {
+                  "Frame": 67,
+                  "Vector": [
+                    2
+                  ]
+                },
+                {
+                  "Frame": 100,
+                  "Vector": [
+                    3
+                  ]
+                },
+                {
+                  "Frame": 133,
+                  "Vector": [
+                    4
+                  ]
+                },
+                {
+                  "Frame": 167,
+                  "Vector": [
+                    5
+                  ]
+                },
+                {
+                  "Frame": 200,
+                  "Vector": [
+                    6
+                  ]
+                },
+                {
+                  "Frame": 233,
+                  "Vector": [
+                    7
+                  ]
+                },
+                {
+                  "Frame": 267,
+                  "Vector": [
+                    8
+                  ]
+                },
+                {
+                  "Frame": 300,
+                  "Vector": [
+                    9
+                  ]
+                },
+                {
+                  "Frame": 333,
+                  "Vector": [
+                    10
+                  ]
+                },
+                {
+                  "Frame": 367,
+                  "Vector": [
+                    11
+                  ]
+                },
+                {
+                  "Frame": 400,
+                  "Vector": [
+                    12
+                  ]
+                },
+                {
+                  "Frame": 433,
+                  "Vector": [
+                    13
+                  ]
+                },
+                {
+                  "Frame": 467,
+                  "Vector": [
+                    14
+                  ]
+                },
+                {
+                  "Frame": 500,
+                  "Vector": [
+                    15
+                  ]
+                },
+                {
+                  "Frame": 533,
+                  "Vector": [
+                    16
+                  ]
+                },
+                {
+                  "Frame": 567,
+                  "Vector": [
+                    17
+                  ]
+                },
+                {
+                  "Frame": 600,
+                  "Vector": [
+                    18
+                  ]
+                },
+                {
+                  "Frame": 633,
+                  "Vector": [
+                    19
+                  ]
+                },
+                {
+                  "Frame": 667,
+                  "Vector": [
+                    20
+                  ]
+                },
+                {
+                  "Frame": 700,
+                  "Vector": [
+                    21
+                  ]
+                },
+                {
+                  "Frame": 733,
+                  "Vector": [
+                    22
+                  ]
+                },
+                {
+                  "Frame": 767,
+                  "Vector": [
+                    23
+                  ]
+                },
+                {
+                  "Frame": 800,
+                  "Vector": [
+                    24
+                  ]
+                },
+                {
+                  "Frame": 833,
+                  "Vector": [
+                    25
+                  ]
+                },
+                {
+                  "Frame": 867,
+                  "Vector": [
+                    26
+                  ]
+                },
+                {
+                  "Frame": 900,
+                  "Vector": [
+                    27
+                  ]
+                },
+                {
+                  "Frame": 933,
+                  "Vector": [
+                    28
+                  ]
+                },
+                {
+                  "Frame": 967,
+                  "Vector": [
+                    29
+                  ]
+                }
+              ],
+              "LineType": 0,
+              "GlobalSeqId": 0
+            },
+            "TVertexAnimId": null,
+            "CoordId": 0,
+            "Alpha": 0.4000000059604645
+          }
+        ]
+      },
+      {
+        "layers": [
+          {
+            "FilterMode": 2,
+            "Shading": 0,
+            "TextureID": 0,
+            "TVertexAnimId": null,
+            "CoordId": 0,
+            "Alpha": 0.25
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[configuration]
+entry_symbol = "banjo_library_init"
+compatibility_minimum = "4.5"
+reloadable = false
+
+[libraries]
+windows.x86_64 = "res://bin/libbanjo.049.windows.x86_64.dll"
+android.arm64 = "res://bin/libbanjo.android.arm64.so"
+android.arm32 = "res://bin/libbanjo.android.arm32.so"
+android.x86_64 = "res://bin/libbanjo.android.x86_64.so"

@@ -1,0 +1,101 @@
+{
+  "D000_0": {
+    "model": "scenery_D000_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "war3mapImported\\WaterfallFX.mdx"
+  },
+  "LOo1_1": {
+    "model": "scenery_LOo1_1",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\LordaeronSummer\\Props\\BannerOrc\\BannerOrc1.mdx"
+  },
+  "D002_0": {
+    "model": "scenery_D002_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "war3mapImported\\Steamcloud.mdx"
+  },
+  "AObd_0": {
+    "model": "scenery_AObd_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\Ashenvale\\Props\\Bird\\Bird.mdx"
+  },
+  "ZWsw_4": {
+    "model": "scenery_ZWsw_4",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\Ruins\\Water\\Seaweed0\\Seaweed04.mdx"
+  },
+  "ZWsw_2": {
+    "model": "scenery_ZWsw_2",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\Ruins\\Water\\Seaweed0\\Seaweed02.mdx"
+  },
+  "ZWsw_1": {
+    "model": "scenery_ZWsw_1",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\Ruins\\Water\\Seaweed0\\Seaweed01.mdx"
+  },
+  "ZWsw_3": {
+    "model": "scenery_ZWsw_3",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\Ruins\\Water\\Seaweed0\\Seaweed03.mdx"
+  },
+  "LOh1_0": {
+    "model": "scenery_LOh1_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Doodads\\LordaeronSummer\\Props\\BannerHuman\\BannerHuman0.mdx"
+  },
+  "B00C_0": {
+    "model": "scenery_B00C_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Banner_Dinos.mdx"
+  },
+  "B00D_0": {
+    "model": "scenery_B00D_0",
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "member": "Banner_Weasels.mdx"
+  }
+}
